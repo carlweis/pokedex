@@ -1,4 +1,4 @@
-# Givebutter Frontend Take-home
+# Pokedex React App
 
 ## Overview
 

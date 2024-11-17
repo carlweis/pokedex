@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root > .pokedex__container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+
+  .pokedex__content {
+    display: flex;
+    gap: 5rem;
+  }
+
+  .pokedex__search-input {
+    margin: 1rem 0;
+  }
+
+  .pokedex__search-results {
+    border-radius: 5px;
+    border: solid red 3px;
+    max-height: 500px;
+    overflow-y: auto;
+  }
+
+  .pokedex__list-item {
+    border-bottom: 1px solid #121212;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .pokedex__list-item__title {
+    font-weight: 600;
+  }
+
+  .pokedex__details {
+    align-self: flex-start;
+    border-radius: 5px;
+    border: solid black 3px;
+    display: inline-block;
+    padding: 1rem;
+  }
+
+  .pokedex__details-name {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .pokedex__details-sprite {
+    text-align: center;
+  }
+
+  .pokedex__details .header {
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .pokedex__details-stats {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .pokedex__details-evolutions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+}
